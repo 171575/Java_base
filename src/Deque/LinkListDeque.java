@@ -78,7 +78,6 @@ public class LinkListDeque<E> implements Deque<E>,Iterable<E> {
             public boolean hasNext() {
                 return false;
             }
-
             @Override
             public E next() {
                 return null;
